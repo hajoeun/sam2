@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
+import logo from './logo.svg';
 
 import Meetup from './component/Meetup'
 
@@ -10,7 +10,7 @@ class App extends Component {
       <div id="sam">
         <div className="header">
           <div className="title">
-            LOGO
+            <img src="{logo}" alt="로고"/>
           </div>
         </div> 
         <div className="body">
